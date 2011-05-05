@@ -1,0 +1,12 @@
+#N canvas 1 74 1009 621 24;
+#X declare -lib sfruit;
+#X obj -515 -351 image /home/glerm/conSerto/p3.gif;
+#X obj -788 -639 satelite;
+#X symbolatom 397 118 4 0 0 0 - tonalidade -;
+#X symbolatom -800 -599 10 0 0 0 - - -;
+#X obj -789 -673 cnv 15 100 30 empty empty Sem? 20 12 0 30 -32905 -262144
+0;
+#X obj -934 -395 s sat1;
+#X obj -968 -712 cnv 15 100 30 empty empty Sem? 20 12 0 30 -32905 -262144
+0;
+#X connect 1 0 3 0;
